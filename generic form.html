@@ -4,9 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Generic Form</title>
+    <title>Registration</title>
+    <style>
+        form{
+            border: none;
+            height: 500px;
+            width: 550px;
+            text-align: center;
+            background-color: rgba(177, 40, 40, 0.774);
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 7rem;
+            font-family: Arial, Helvetica, sans-serif
+
+        
+        }
+
+        h1{
+           font-size: 50px;
+           color: white;
+           margin-bottom: 0px;
+        }
+
+
+        input{
+            font-size: 12px;
+            text-align: left;
+            border: none;
+            background-color: rgba(7, 0, 0, 0.347);
+            padding: 12px 355px 12px 10px;
+            color: white;
+
+        }
+
+        textarea{
+            font-size: 12px;
+            text-align: left;
+            border: none;
+            background-color: rgba(7, 0, 0, 0.347);
+            color: white;
+        }
+
+        button{
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 25px 200px 25px 200px;
+            border: none;
+            background-color: white;
+            color: rgba(177, 40, 40, 0.774);
+        }
+
+        p{
+            color: white;
+            font-size: 12px;
+            margin-top: 0px;
+        }
+
+
+
+    </style>
 </head>
+
 <body>
+
     
+    <form action="#">
+
+        <h1>Get in touch</h1>
+        <p>Good choice...</p>
+
+        <input 
+         type="text" 
+         name="username" 
+            id="username" 
+          placeholder="Name"/>
+          <br><br>
+
+
+            <input 
+             type="email" 
+             name="email" 
+                id="email" 
+              placeholder="Contact Email"/>
+              <br><br>
+
+        
+
+        <textarea
+        rows="5"
+        cols="74">
+        How can I Help?
+        </textarea>
+        
+
+
+        <br><br>
+       <button type="submit">Send Message</button><br><br><br>
+
+    </form>
+
+
+
+
 </body>
 </html>
